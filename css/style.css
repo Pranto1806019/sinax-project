@@ -1,0 +1,370 @@
+/* common css start */
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #666666;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #222222;
+}
+ul,ol{
+    list-style: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.container-fluid {
+	padding: 0 70px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 24.99%;
+}
+.col-4{
+    width: 33.32%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 74.99%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12{
+    padding: 0 15px;
+}
+.align-items-center{
+    align-items: center;
+}
+/* common css end */
+/* =================
+ header area css
+ ===================
+  */
+.header-area {
+	background: #212121;
+}
+.main_menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.main_menu ul li a{
+    padding: 52px 12px;
+    color: #ffffff;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+.main_menu ul li:last-child a{
+    padding-right: 0;
+}
+.main_menu ul li.active a{
+    color:  #f26957;
+}
+.main_menu ul li:hover > a{
+    color: #f26957;
+}
+/* =================
+ header area css end
+ ===================
+  */
+  /* banner area css start  */
+
+  .banner_area{
+      background: url(../images/banner_bg.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .banner_overlay{
+        background: rgba(0, 0, 0,.4);
+        padding : 250px 0px;
+    }
+    .banner_area h1
+    {
+        color: #ffffff;
+        padding-bottom: 60px;
+        font-size: 86px;
+        font-weight: bold;
+    }
+    .banner_area h3{
+        color: #ffffff;
+        padding-bottom : 48px;
+        font-size: 19px;
+        font-weight: regular;
+        text-transform: uppercase;
+    }
+    .banner_area a
+    {
+    background: #f26856;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding : 18px 56px;
+    font-size: 13px;
+}
+/* =================
+ banner area css end
+ ===================
+  */
+  /* menu area css start  */
+  .menu{
+        width: 100%;
+        height: 535px;
+        background: #ffffff;
+  }
+  .content {
+	display: flex;
+	height: 300px;
+	width: 1170px;
+	margin: 120px 0;
+}
+.stat-1{
+        background: #2a2d30;
+        width : 33.33%
+  }
+.stat-2{
+
+        width : 33.33%;
+        background: #25282b;
+  }
+.stat-3{
+
+        width : 33.33%;
+        background: #2a2d30;
+  }
+.content h3{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        padding-top: 70px;
+        padding-bottom: 30px;
+        padding-left : 30px;
+ }
+.content h5{
+        color: #bdbdbd;
+        font-size: 14px;
+        font-weight: regular;
+        padding-left : 30px;
+        padding-bottom: 60px;
+}
+.content h4{
+     font-size: 13px;
+     font-weight: bold;
+     color: white;
+     padding-left: 30px;
+     text-transform: uppercase;
+}
+/* menu area css end  */
+/* video area css start */
+.video{
+      background: url(../images/video.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 760px;
+      
+}
+.write h3{
+    font-size : 48px;
+    font-weight: bold;
+    color : white;
+    text-align: center;
+    padding-top: 270px;
+    padding-bottom: 50px;
+    padding-left: 210px;
+
+    
+}
+.fa.fa-play-circle {
+	font-size: 65px;
+	color: white;
+	padding-left: 558px;
+	padding-top: 10px;
+}
+/* video area css end */
+/* service area css start */
+.service_area{
+    width: 100%;
+    height : 1065px;
+    background: #f5f5f5;
+    
+}
+.service_content h2{
+    padding-top: 130px;
+    padding-left: 400px;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+.service_content h3{
+    text-align: center;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-bottom: 70px;
+    color : #666666;
+}
+
+.row-1
+{
+    width:100%;
+    height:300px;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.row-2
+{
+    width:100%;
+    height:300px;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.service-1{
+    width: 300px;
+    height: 250px;
+    background:white;
+    padding : 12.5px 0;
+}
+.service-2{
+    width: 300px;
+    height: 250px;
+    background:white;
+    padding : 12.5px 0;
+}
+.service-3{
+    width: 300px;
+    height: 250px;
+    background:white;
+    padding : 12.5px 0;
+}
+.service-4{
+    width: 300px;
+    height: 250px;
+    background:white;
+}
+.service-5{
+    width: 300px;
+    height: 250px;
+    background:white;
+}
+.service-6{
+    width: 300px;
+    height: 250px;
+    background:white;
+}
+.row-1 img{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.row-2 img{
+    padding-top: 30px;
+    padding-left: 40px;
+    
+}
+.row-1 h2, .row-2 h2{
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    color :black;
+    padding-bottom: 20px;
+}
+
+.row-1 h3, .row-2 h3{
+    padding : 0 40px;
+    font-size: 14px;
+    font-weight : regular;
+    color : #8c8c8c;
+}
+
+/* service area css end */
+/* counter area css start */
+.counter_area{
+    width: 100%;
+    height : 270px;
+    background: #333333;
+}
+.counter_area h2{
+    color : white;
+    font-size : 40px;
+    font-weight: bold;
+    padding-top : 98px;
+    padding-bottom : 35px;
+    text-align: center;
+    
+    
+}
+
+.counter_area h3{
+    color : #d8d8d8;
+    font-size : 14px;
+    font-weight : regular;
+    text-align: center;
+
+}
+/* counnter area css end */
